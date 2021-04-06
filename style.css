@@ -1,9 +1,6 @@
 html, body, #home {
 	height: 100%;
-}
-
-#home {
-    border: 1px solid red;
+    overflow-x: hidden;
 }
 
 body {
@@ -72,12 +69,66 @@ nav.navbar-transparente {
     color: black;
 }
 
+/* Conteúdos */
+
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, h3 {
+    color: #7c26f8;
+}
+
+.albuns {
+    padding: 10px 0px;
+}
+
+/* Recursos */
+
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos p {
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
 /* Tipografia */
 h1 {
     font-weight: 900;
     text-shadow: -0.5em;
     margin-bottom: 50px;
     color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /* Media Queries */
